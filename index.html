@@ -6,56 +6,13 @@
 <title>Psychic-Game</title>
 <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<link type="text/javascript" href="assets/javascript/game.js">
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 <body>
- <img src="assets/images/hqdefault-1.jpg">
-<p><button onclick="clickCounter()" type="button">Click me!</button></p>
-<p>Wins:</p>
-<p>Losses:</p>
-<p>Remaining:</p>
-<p id="list">You Guessed:</p>
+<img src="assets/images/hqdefault-1.jpg">
+<p id="wins">Wins:</p>
+<p id="loss">Losses:</p>
+<p id="remaining">Remaining:</p>
+<p id="guessed">You Guessed:</p>
 </body>
 </html>
-
-
-
-
-
-<!--
-
-    1. App randomly chooses a letter
-    -array
-    -math.random
-
-    2. Guess what letter I'm thinking of
-    -user inputs letter (event.listener or onclick.event)
-    -if onclick letter === kadabraLetter
-    
-    
-    3. Wins (# of times user guess = correct)
-    
-    4. Losses (# of times user guesses = 0 remaining (or > than max))
-    
-    5. Guesses Left: (# of guesses left)
-    
-    6.Your Guesses So Far:(the specific letters that the user typed. Display these until the user wins or loses)
-
-    7. When the player wins, increase the Wins counter and start the game over again
-
-    8. When player loses, increase losses counter and restart game 
-
-    Optional:
-
-    1. First Screen: A wild Kadabra has jappeared!!!
-    -Slide animation brings Kadabra.jpg in from right side
-    -Battle music starts auto-playing (href music link)
-    -User click brings up next screen
-
-    2. Second Screen:  text box appears next to Kadabra, letters spell out rules
-    -"Kadabra uses Psychic Game -> Player must guess correct letter to win battle"
-    -when player selects letter the attack sound triggers via audio file href link
-    -upon victory Victory Music replaces Battle Music
-    
-
--->

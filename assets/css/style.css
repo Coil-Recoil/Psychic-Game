@@ -1,7 +1,19 @@
-div {
-   /* background-image: ("assets/images/images-poke.png");
-   - try centering background image
-   -then center foreground image on top
-   -then may need to vertically align image
- */
+.picture {
+    display: block;
+    width: 50%;
+    background-color: white;
+}
+
+.counters {
+  position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    background: rgba(0, 0, 0, 0.479);
+    border-color: 15px solid black;
+    
 }
